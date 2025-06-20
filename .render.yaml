@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: streamlit-app
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.enableCORS false
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+      - key: OPENAI_API_KEY
+        value: your_key_here
+        sync: false
