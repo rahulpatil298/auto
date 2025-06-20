@@ -1,5 +1,5 @@
 pip>=24.0
-setuptools>=69.5.1
+setuptools>=68.0.0
 wheel>=0.42.0
 
 
@@ -12,7 +12,7 @@ plotly==5.18.0
 kaleido==0.2.1               # For saving Plotly figures as images
 
 # Streamlit App
-streamlit==1.29.0
+streamlit
 streamlit-extras==0.7.1
 python-dotenv==1.0.0
 jinja2==3.1.2
