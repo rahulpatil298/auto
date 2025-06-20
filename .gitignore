@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+
+# Node.js
+node_modules/
+dist/
+.env
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Compiled files
+*.class
+*.exe
+*.out
+
+# Flutter
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+
+venv/
