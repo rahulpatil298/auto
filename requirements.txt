@@ -1,6 +1,7 @@
-setuptools==69.5.1
-wheel==0.42.0
-pip==24.0
+pip>=24.0
+setuptools>=69.5.1
+wheel>=0.42.0
+
 
 # Core Data Analysis Stack
 pandas==2.0.3                # Downgraded for Render compatibility
